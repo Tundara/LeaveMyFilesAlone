@@ -6,3 +6,5 @@ A simple GO program who detect when a process open your selected file !
 #### If the file has been opened, you will see this : <br />
 ![image info](img/Screenshot_2.png)
 ![image info](img/Screenshot_1.png)
+
+## More features will be coming in the future...
