@@ -1,10 +1,12 @@
 # LeaveMyFilesAlone
 A simple GO program who detect when a process open your selected file !
-#### Execute the binary and choose your file <br />
+### Execute the binary and choose your file <br />
 ![image info](img/Screenshot_57.png)
 
-#### If the file has been opened, you will see this : <br />
+### If the file has been opened, you will see this : <br />
+#### Notification :
 ![image info](img/Screenshot_2.png)
+#### Date of opening :
 ![image info](img/Screenshot_1.png)
 
 ## More features will be coming in the future...
