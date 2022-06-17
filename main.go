@@ -11,7 +11,7 @@ import (
 )
 
 func Notif(file string) error {
-	err := beeep.Notify("ALERTE", "Le fichier : "+file+" á été ouvert !", "warning.png")
+	err := beeep.Notify("ALERT", "The file : "+file+" has been opened !", "warning.png")
 	if err != nil {
 		panic(err)
 	}
