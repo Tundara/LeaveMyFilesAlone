@@ -11,7 +11,7 @@ import (
 )
 
 func Notif(file string) error {
-	err := beeep.Notify("ALERTE", "Le fichier : "+file+" á été ouvert !", "D:/Desktop/GO/Notify/img/warning.png")
+	err := beeep.Notify("ALERTE", "Le fichier : "+file+" á été ouvert !", "warning.png")
 	if err != nil {
 		panic(err)
 	}
@@ -33,14 +33,14 @@ func Checking(fi os.FileInfo, file string, NewTime time.Time) {
 		TimeOpened := DecodeTime(info)
 		if TimeOpened != NewTime {
 			fmt.Println("Opened at ", TimeOpened)
-			go Notif(file)
+			Notif(file)
 			Process(info, file)
 		}
 	}
 }
 
 func Process(info os.FileInfo, File string) {
-	NewTime := time.Unix(0, info.Sys().(*syscall.Win32FileAttributeData).LastAccessTime.Nanoseconds())
+	NewTime := DecodeTime(info)
 	Checking(info, File, NewTime)
 }
 
