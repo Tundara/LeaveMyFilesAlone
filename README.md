@@ -1,5 +1,6 @@
 # LeaveMyFilesAlone
-### ⚠ Linux Support Soon... ⚠
+### ✅ Windows Support ✅
+### ⚠ Linux Support coming Soon... ⚠
 A simple GO program who detect when a process open your selected file ! <br />
 
 **NOTE :** If you want to recompile the project on windows do like this
