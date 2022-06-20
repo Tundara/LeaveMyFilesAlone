@@ -2,7 +2,7 @@
 ### ⚠ Linux Support Soon... ⚠
 A simple GO program who detect when a process open your selected file !
 #### If you want to recompile the project on windows do like this
-```
+```batch
 go build -ldflags -H=windowsgui
 ```
 ### Execute the binary and choose your file <br />
