@@ -1,7 +1,7 @@
 # LeaveMyFilesAlone
 A simple GO program who detect when a process open your selected file !
 ### Execute the binary and choose your file <br />
-![image info](img/gui1) <br />
+![image info](img/gui1.png) <br />
 ![image_info](img/choosepng.png) <br />
 ### When the file is selected you will see this : <br />
 ![image_info](img/name.png) <br />
