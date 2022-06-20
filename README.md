@@ -1,7 +1,7 @@
 # LeaveMyFilesAlone
 ### ⚠ Linux Support Soon... ⚠
-A simple GO program who detect when a process open your selected file !
-**NOTE** If you want to recompile the project on windows do like this
+**NOTE : **A simple GO program who detect when a process open your selected file !
+If you want to recompile the project on windows do like this
 ```
 go build -ldflags -H=windowsgui
 ```
